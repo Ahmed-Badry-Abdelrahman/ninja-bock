@@ -71,6 +71,16 @@
                     </h1>
                     <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <a href="#pricing" class="btn btn-lg btn-secondary">Bey New</a>
+
+
+                    <a class="d-block mt-3" data-bs-toggle="offcanvas" href="#sidebar" role="button"
+                        aria-controls="sidebar">
+                        Explore my Other Book
+                    </a>
+
+
+
+
                 </div>
                 <div class="col-md-5 d-none d-md-block text-center">
                     <span class="tt" data-bs-placement="bottom" title="Net Ninja Pro Book Cover">
@@ -482,6 +492,42 @@
             </div>
         </div>
     </div>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="sidebar"
+        aria-labelledby="sidebar-title">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-title">Backdrop with scrolling</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-8">
+                        <span class="tt" data-bs-placement="bottom" title="Net Ninja Pro Book Cover">
+                            <img class="img-fluid" src="./app/assets/images/ebook-cover.png" alt="">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <p class="text-muted mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reiciendis
+                eligendi maiores, unde cumque
+                est officiis ex esse, nesciunt quasi, voluptas animi ducimus minus ipsum dicta debitis quis. Nesciunt,
+                tenetur!
+            </p>
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Choose a book title
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Become a React Superhero</a></li>
+                    <li><a class="dropdown-item" href="#">Conquering Vue.js</a></li>
+                    <li><a class="dropdown-item" href="#">Levelling up.Your.Next.js</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
